@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "liams_calculator.hpp"  // Your calculator class header
+#include "liams_calculator.hpp"
 
 int main() {
     calculator::calculator calc(std::cout);  // create calculator with debug output to console

@@ -349,7 +349,7 @@ float calculator::calculator::fact_r(int const n){
 } // recursive factorial
 
 int main(){
-  std::string equation = "1+2(2^2+6!((1+4)!+7*8/9)/500)";
+  std::string equation = "1+2(2^2+6!((1+3!)!+7*8/9)/500)";
 
   calculator::calculator calc(std::cout);
   calc.execute(equation);
